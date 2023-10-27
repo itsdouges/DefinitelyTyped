@@ -260,6 +260,8 @@ export class Material extends EventDispatcher<{ dispose: {} }> {
     /**
      * Opacity. Default is 1.
      * @default 1
+     * @min 0
+     * @max 1
      */
     opacity: number;
 
